@@ -1,0 +1,51 @@
+"Customer ID","Customer Name","Customer Age","Customer City","Customer Country","Bank Account Number","Current Amount of Money"
+0,"John Doe",30,"New York","USA","1234567890",5000.00
+1,"Alice Smith",25,"Los Angeles","USA","2345678901",7500.00
+2,"Bob Johnson",40,"London","UK","3456789012",10000.00
+3,"Eve Williams",35,"Paris","France","4567890123",12000.00
+4,"Michael Brown",28,"Toronto","Canada","5678901234",8000.00
+5,"Emma Davis",32,"Berlin","Germany","6789012345",9500.00
+6,"Anna Wilson",29,"Rome","Italy","7890123456",11000.00
+7,"William Green",37,"Sydney","Australia","8901234567",13500.00
+8,"Peter Taylor",45,"Moscow","Russia","9012345678",16000.00
+9,"Sarah Johnson",31,"Tokyo","Japan","0123456789",18000.00
+10,"David Miller",33,"Madrid","Spain","1234567890",20000.00
+11,"Olivia Taylor",40,"Beijing","China","2345678901",22000.00
+12,"James Anderson",26,"Seoul","South Korea","3456789012",24000.00
+13,"Sophia Martin",38,"Mexico City","Mexico","4567890123",27000.00
+14,"Alexander Martinez",29,"São Paulo","Brazil","5678901234",30000.00
+15,"Isabella Garcia",34,"Paris","France","6789012345",35000.00
+16,"Daniel Rodriguez",36,"Berlin","Germany","7890123456",40000.00
+17,"Mia Hernandez",31,"New York","USA","8901234567",45000.00
+18,"Michael Gonzalez",42,"Los Angeles","USA","9012345678",50000.00
+19,"Charlotte Lopez",27,"London","UK","0123456789",55000.00
+20,"William Moore",39,"Toronto","Canada","1234567890",60000.00
+21,"Evelyn Perez",35,"Sydney","Australia","2345678901",65000.00
+22,"Ethan Lee",30,"Tokyo","Japan","3456789012",70000.00
+23,"Amelia Lewis",28,"Moscow","Russia","4567890123",75000.00
+24,"Benjamin Walker",44,"São Paulo","Brazil","5678901234",80000.00
+25,"Mia Hall",33,"Mexico City","Mexico","6789012345",85000.00
+26,"Chloe Young",37,"Madrid","Spain","7890123456",90000.00
+27,"Alexander King",32,"Beijing","China","8901234567",95000.00
+28,"Madison Wright",41,"Seoul","South Korea","9012345678",100000.00
+29,"Aiden Lopez",29,"Paris","France","0123456789",105000.00
+30,"Ava Hill",36,"Berlin","Germany","1234567890",110000.00
+31,"Sophia Green",39,"New York","USA","2345678901",115000.00
+32,"James Adams",30,"Los Angeles","USA","3456789012",120000.00
+33,"Ella Nelson",34,"London","UK","4567890123",125000.00
+34,"Logan Baker",28,"Toronto","Canada","5678901234",130000.00
+35,"Liam Allen",43,"Sydney","Australia","6789012345",135000.00
+36,"Harper Carter",31,"Tokyo","Japan","7890123456",140000.00
+37,"Mila Mitchell",37,"Moscow","Russia","8901234567",145000.00
+38,"Aria Perez",35,"São Paulo","Brazil","9012345678",150000.00
+39,"Evelyn Cooper",33,"Mexico City","Mexico","0123456789",155000.00
+40,"Lucas Bailey",39,"Madrid","Spain","1234567890",160000.00
+41,"Luna Gonzales",26,"Beijing","China","2345678901",165000.00
+42,"Zoe Hill",42,"Seoul","South Korea","3456789012",170000.00
+43,"Penelope Foster",29,"Paris","France","4567890123",175000.00
+44,"Mateo Gonzales",38,"Berlin","Germany","5678901234",180000.00
+45,"Aurora Long",35,"New York","USA","6789012345",185000.00
+46,"Landon Torres",44,"Los Angeles","USA","7890123456",190000.00
+47,"Sofia Brooks",31,"London","UK","8901234567",195000.00
+48,"Gabriel Ward",40,"Toronto","Canada","9012345678",200000.00
+49,"Scarlett Cooper",27,"Sydney","Australia","0123456789",205000.00
