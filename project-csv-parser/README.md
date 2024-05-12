@@ -1,40 +1,36 @@
-# Project description
-CSV File Parsing:
-* Write a program that reads data from a CSV (Comma-Separated Values) file and displays it in a tabular format.
-* Handle cases where values may contain commas or newline characters by using quotation marks.
+## Exercise: Console-based GUI for International Bank Database
 
-# Objectives
-* Master strin and file manipulation.
+### Objective:
+Create a console-based GUI application for managing an international bank database. The application should allow users to search for accounts by Account ID or Customer Name, create new accounts, delete accounts, and display the database. Additionally, the application should load the database from a CSV file when started and save the updated database to the same CSV file when closed.
 
-# Detailed description
-Parse a CSV (Comma-Separated Values) file and display its contents in a tabular format. Here's a more detailed explanation of how you can approach this exercise:
+### Features:
+1. **Search Accounts:** Users should be able to search for accounts by Account ID or Customer Name. If multiple accounts match the search criteria, display all matching accounts.
 
-1. Understanding CSV Format:
+2. **Create Account:** Users should be able to create a new account by providing customer details such as Customer Name, Customer Age, Customer City, Customer Country, Bank Account Number, and Current Amount of Money. The Customer ID should be automatically assigned based on the current number of accounts in the database.
 
-CSV files typically consist of rows of data, with each row separated by a newline character ('\n').
-Within each row, individual data fields are separated by commas (,).
-Sometimes, data fields may be enclosed within quotation marks (""), especially if they contain commas or newline characters themselves.
+3. **Delete Account:** Users should be able to delete an account by entering the Account ID.
 
-2. Reading the CSV File:
+4. **Display Database:** Users should have the option to display the entire database, showing all account details.
 
-Open the CSV file using std::ifstream from the <fstream> header.
-Read the contents of the file line by line using std::getline.
-For each line, parse the individual data fields by splitting the line at each comma. You can use std::istringstream or string manipulation functions like std::stringstream and std::getline to accomplish this.
-Store the parsed data fields in a suitable data structure, such as a two-dimensional std::vector or a custom-defined class representing a row of data.
+5. **Load Database:** The application should load the database from a CSV file when started. The CSV file should have the following columns: "Customer ID", "Customer Name", "Customer Age", "Customer City", "Customer Country", "Bank Account Number", and "Current Amount of Money".
 
-3. Displaying the Data in Tabular Format:
+6. **Save Database:** When the application is closed, it should save the updated database to the same CSV file, overwriting the existing data.
 
-Once you have parsed the CSV file and stored its contents, iterate over the data structure.
-Print each row of data in a tabular format, aligning the columns properly.
-You may need to determine the maximum width of each column to ensure proper alignment. You can do this by iterating over the data once to find the maximum length of each field.
-You can use std::setw from the <iomanip> header to set the width of each column when printing.
+7. **Error Handling:** The application should raise a warning if the provided CSV file is malformed or corrupted, indicating that the database cannot be loaded.
 
-4. Handling Quoted Fields:
+### Instructions:
+1. Upon starting the application, load the database from the CSV file.
+2. Display a menu with options to search accounts, create account, delete account, display database, and exit.
+3. Implement each feature as described above.
+4. Ensure error handling for cases such as invalid input, non-existent accounts, and file loading errors.
+5. When the application is closed, save the updated database to the CSV file.
 
-If a data field is enclosed within quotation marks, it should be treated as a single field, even if it contains commas.
-Modify your parsing logic to handle quoted fields appropriately. You may need to consider cases where quotation marks are escaped within quoted fields (e.g., "" to represent a single quotation mark).
+### CSV Database Examples:
+- Use the provided CSV databases (`well_formed_database.csv` and `malformed_database.csv`) to test your application. These databases contain sample account data.
+- The well-formed database (`well_formed_database.csv`) has properly formatted data for all entries.
+- The malformed database (`malformed_database.csv`) contains some entries with missing bank account numbers and other formatting issues.
 
-5. Error Handling:
-
-Consider how you will handle errors such as missing or malformed fields in the CSV file.
-Provide informative error messages or logging to help users understand and troubleshoot any issues that arise.
+### Additional Notes:
+- You can choose any programming language for implementing the application, but make sure it runs in a console environment.
+- Focus on creating a user-friendly interface and robust error handling.
+- Test your application thoroughly with different scenarios to ensure its correctness.
